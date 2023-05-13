@@ -1,9 +1,10 @@
 import "./App.css";
+import HealthTrack from "./pages/healthTrack";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <HealthTrack />
     </div>
   );
 }
