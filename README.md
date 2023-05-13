@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Quan Health tracker - Front end technical assignment
+This repository contains high level skeleton of Quan's front end web application. The project structure contains different directories whose purpose is explained inbelow sections. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Technologies/Tools used
+* ReactJS
+* Javascript
+* Material UI
+* Github VCS
+* VSCode IDE
 
-## Available Scripts
+### Project Setup:
 
-In the project directory, you can run:
+Project contains the below set of folders:
 
-### `npm start`
+`quan_assignment/src/assets/`
+      
+      - This directory contains the assets such as logos or any images required for the project.
+ 
+ `quan_assignment/src/components/`
+     
+     -  This directory contains the implementation for reusable components which will be used across the project. Examples are Header, Footer..etc.
+     
+  `quan_assignment/src/pages/`
+     
+     -  This directory contains the implementation for all the necessary screens of the web application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`package.json`
+      
+      - It contains the external dependencies and scripts which are needed to run/build the project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Implementation details :
+This project contatins the implementation for a single page namely, health tracker page. This page implementation is done to demonstrate the way of working from the front end perspective of the project. In the above the directories and other technical details can be found.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### How to run this project :
 
-### `npm run build`
+1. Clone this repository:
+```sh
+git clone https://github.com/NaravaTejasri/quan_assignment.git
+```
+2. Go to the project directory in the terminal/commandline and run the following command to install dependencies:
+```sh
+npm install
+```
+3. Run the following command to launch the project in the default browser.
+```sh
+npm run start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Who do I talk to? ###
+Please reach out to me at tejasrisony17@gmail.com in case of questions and clarifications related to above set up.
